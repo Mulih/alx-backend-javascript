@@ -1,6 +1,6 @@
 import { taskFirst, getLast, taskNext } from './0-constants.js';
 
-describe('Task Functions', () => {
+describe('task Functions', () => {
   it('should return the correct string for taskFirst()', () => {
     expect(taskFirst()).toBe('I prefer const when I can.');
   });
@@ -13,4 +13,3 @@ describe('Task Functions', () => {
     expect(taskNext()).toBe('But sometimes let is okay');
   });
 });
-
