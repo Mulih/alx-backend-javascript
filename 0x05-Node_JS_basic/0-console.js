@@ -4,6 +4,7 @@
  * @return {void}
  */
 //arrow function
+
 const displayMessage = (message) => console.log(message);
 
 /**
