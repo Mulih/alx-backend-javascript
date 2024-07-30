@@ -3,8 +3,7 @@
  * @param {string} messsage - message to be logged
  * @return {void}
  */
-//arrow function
-
+//arrow function 
 const displayMessage = (message) => console.log(message);
 
 /**
